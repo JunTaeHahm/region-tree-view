@@ -1,0 +1,30 @@
+{
+    "name": "region-tree",
+    "displayName": "Region Tree",
+    "description": "Display #region blocks in a tree structure",
+    "version": "0.0.1",
+    "publisher": "your_name",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "region-tree.show",
+                "title": "Show Region Tree"
+            }
+        ],
+        "views": {
+            "explorer": [
+                {
+                    "id": "regionTreeView",
+                    "name": "Region Tree"
+                }
+            ]
+        }
+    }
+}

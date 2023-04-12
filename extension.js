@@ -73,6 +73,7 @@ class RegionTreeDataProvider {
     }
 
     getTreeItem(element) {
+        element.collapsibleState = vscode.TreeItemCollapsibleState.Expanded;
         return element;
     }
 

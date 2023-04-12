@@ -3,9 +3,14 @@
     "displayName": "Region Tree",
     "description": "Display #region blocks in a tree structure",
     "version": "0.0.1",
-    "publisher": "your_name",
+    "publisher": "JunTaeHahm",
+    "icon": "icon.png",
     "engines": {
-        "vscode": "^1.62.0"
+        "vscode": "^1.77.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JunTaeHahm/region-tree-view.git"
     },
     "categories": [
         "Other"
